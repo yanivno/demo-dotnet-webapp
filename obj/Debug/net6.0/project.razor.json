@@ -16298,6 +16298,11 @@
   "RootNamespace": "aspnetcoreapp",
   "Documents": [
     {
+      "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Privacy.cshtml",
+      "TargetPath": "dotnet-docker\\samples\\aspnetapp\\aspnetapp\\Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16305,6 +16310,21 @@
     {
       "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/_ViewStart.cshtml",
+      "TargetPath": "dotnet-docker\\samples\\aspnetapp\\aspnetapp\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Index.cshtml",
+      "TargetPath": "dotnet-docker\\samples\\aspnetapp\\aspnetapp\\Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Shared/_Layout.cshtml",
+      "TargetPath": "dotnet-docker\\samples\\aspnetapp\\aspnetapp\\Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16323,8 +16343,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Error.cshtml",
+      "TargetPath": "dotnet-docker\\samples\\aspnetapp\\aspnetapp\\Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/_ViewImports.cshtml",
+      "TargetPath": "dotnet-docker\\samples\\aspnetapp\\aspnetapp\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/Pages/Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "dotnet-docker\\samples\\aspnetapp\\aspnetapp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {

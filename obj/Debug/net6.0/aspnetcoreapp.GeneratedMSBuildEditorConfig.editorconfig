@@ -15,6 +15,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ynorman/dotnet-app/aspnetcoreapp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = ZG90bmV0LWRvY2tlci9zYW1wbGVzL2FzcG5ldGFwcC9hc3BuZXRhcHAvUGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = ZG90bmV0LWRvY2tlci9zYW1wbGVzL2FzcG5ldGFwcC9hc3BuZXRhcHAvUGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = ZG90bmV0LWRvY2tlci9zYW1wbGVzL2FzcG5ldGFwcC9hc3BuZXRhcHAvUGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = ZG90bmV0LWRvY2tlci9zYW1wbGVzL2FzcG5ldGFwcC9hc3BuZXRhcHAvUGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = ZG90bmV0LWRvY2tlci9zYW1wbGVzL2FzcG5ldGFwcC9hc3BuZXRhcHAvUGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = ZG90bmV0LWRvY2tlci9zYW1wbGVzL2FzcG5ldGFwcC9hc3BuZXRhcHAvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ynorman/dotnet-app/aspnetcoreapp/dotnet-docker/samples/aspnetapp/aspnetapp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = ZG90bmV0LWRvY2tlci9zYW1wbGVzL2FzcG5ldGFwcC9hc3BuZXRhcHAvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ynorman/dotnet-app/aspnetcoreapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
