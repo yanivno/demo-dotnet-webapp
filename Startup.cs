@@ -38,6 +38,7 @@ namespace aspnet
     <title>Powered By Tanzu Buildpacks Yaniv</title>
   </head>
   <body>
+    Hi From Tanzu
     <img style=""display: block; margin-left: auto; margin-right: auto; width: 50%;"" src=""https://blogs.vmware.com/cloudprovider/files/2021/09/logo-vmware-tanzu-square-Header.png""></img>
   </body>
 </html>");
