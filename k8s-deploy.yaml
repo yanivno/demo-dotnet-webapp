@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-dotnet-deploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: demo
+  template:
+    metadata:
+      labels:
+        app: demo
+    spec:
+      containers:
+      - name: web
+        image: harbor-01a.corp.tanzu/library/webapp:1
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+ labels:
+   app: demo
+ name: demo-dotnet-lb
+spec:
+ ports:
+   - port: 80
+ selector:
+   app: demo
+ type: LoadBalancer
