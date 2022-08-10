@@ -28,20 +28,32 @@ namespace aspnet
 
             app.UseRouting();
 
+            app.MapWhen(
+              context => {
+                var path = context.Request.Path.Value.ToLower();
+                return
+                    path.StartsWith("/assets") ||
+                    path.StartsWith("/lib") ||
+                    path.StartsWith("/app");
+                },
+              config => config.UseStaticFiles());
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync(@"<!DOCTYPE html>
+                    await context.Response.WriteAsync(
+@"<!DOCTYPE html>
 <html>
   <head>
     <title>Powered By Tanzu Buildpacks Yaniv</title>
   </head>
   <body>
     Hi From Tanzu
-    <img style=""display: block; margin-left: auto; margin-right: auto; width: 50%;"" src=""https://blogs.vmware.com/cloudprovider/files/2021/09/logo-vmware-tanzu-square-Header.png""></img>
+    <img style=""display: block; margin-left: auto; margin-right: auto; width: 50%;"" src=""/assets/logo-vmware-tanzu-square-Header.png""></img>
   </body>
-</html>");
+</html>"
+                      );
                 });
             });
         }
