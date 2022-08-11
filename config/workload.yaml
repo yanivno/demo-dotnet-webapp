@@ -7,6 +7,10 @@ metadata:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: demo-dotnet-webapp
 spec:
+  params:
+  - name: annotations
+    value:
+      autoscaling.knative.dev/minScale: "1"
   source:
     image: gcr.io/ynorman-project/local-builds
     git:

@@ -42,6 +42,8 @@ namespace aspnet
             {
                 endpoints.MapGet("/", async context =>
                 {
+                  Console.WriteLine("Displaying page");
+                  Console.WriteLine("New Line");
                     await context.Response.WriteAsync(
 @"<!DOCTYPE html>
 <html>

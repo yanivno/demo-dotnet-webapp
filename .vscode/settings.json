@@ -1,3 +1,4 @@
 {
-    "java.server.launchMode": "Standard"
+    "java.server.launchMode": "Standard",
+    "tanzu.sourceImage" : "gcr.io/ynorman-project/local-builds"
 }

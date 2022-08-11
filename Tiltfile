@@ -18,8 +18,7 @@ k8s_custom_deploy(
                " --yes >/dev/null" +
                " && kubectl get workload demo-dotnet-webapp --namespace " + NAMESPACE + " -o yaml",
     delete_cmd="tanzu apps workload delete -f config/workload.yaml --namespace " + NAMESPACE + " --yes",
-    deps=['src'],
-    ignore=['./bin','./obj']
+    deps=['.'],
     container_selector='workload',
     live_update=[
       sync('out', '/app/out'),
@@ -28,6 +27,6 @@ k8s_custom_deploy(
 )
 
 k8s_resource('demo-dotnet-webapp', port_forwards=["8080:80"],
-            extra_pod_selectors=[{'serving.knative.dev/service': demo-dotnet-webapp}])
+            extra_pod_selectors=[{'serving.knative.dev/service': 'demo-dotnet-webapp'}])
 
-allow_k8s_contexts('$(kubectl config current-context)')
+allow_k8s_contexts(k8s_context())
