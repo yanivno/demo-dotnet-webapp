@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BJT8398xG6y/mWamz/Ag0Q9hMIxnzia2QZpaX5xs2SIkAGo+y2ZoX0yLc/1nLGcQtbJDFsr9eHhJtdVepjropA==",
+  "dgSpecHash": "fzaNWQCIzoB6NHjiDlxhSSu8EFkDJeFXF+Pv/FPPsVJhr6VRXyE7zDj1CScm00OJC/k9SbT48hEpjPaAwxoswQ==",
   "success": true,
   "projectFilePath": "/Users/ynorman/dotnet-app/aspnetcoreapp/aspnetcoreapp.csproj",
   "expectedPackageFiles": [
-    "/Users/ynorman/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+    "/Users/ynorman/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/ynorman/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.6/microsoft.netcore.app.host.linux-x64.6.0.6.nupkg.sha512"
   ],
   "logs": []
 }

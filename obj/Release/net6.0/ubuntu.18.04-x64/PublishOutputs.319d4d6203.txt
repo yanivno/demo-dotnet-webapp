@@ -1,0 +1,16 @@
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/aspnetcoreapp
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/appsettings.Development.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/appsettings.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/appsettings.Development.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/appsettings.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/aspnetcoreapp.deps.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/aspnetcoreapp.runtimeconfig.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/out/appsettings.Development.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/out/appsettings.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/out/aspnetcoreapp.deps.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/out/out/aspnetcoreapp.runtimeconfig.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/aspnetcoreapp.dll
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/aspnetcoreapp.deps.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/aspnetcoreapp.runtimeconfig.json
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/aspnetcoreapp.pdb
+/Users/ynorman/dotnet-app/aspnetcoreapp/out/Newtonsoft.Json.dll

@@ -4,10 +4,12 @@ NAMESPACE = os.getenv("NAMESPACE", default='default')
 
 local_resource(
       'build',
-      'dotnet publish src --configuration Release --runtime ubuntu.18.04-x64 --self-contained false --output ./out',
+      'dotnet publish . --configuration Release --runtime ubuntu.18.04-x64 --self-contained false --output ./out',
       deps=['src'],
       ignore=['src/bin','src/obj']
 )
+
+update_settings(k8s_upsert_timeout_secs=120)
 
 k8s_custom_deploy(
     'demo-dotnet-webapp',
