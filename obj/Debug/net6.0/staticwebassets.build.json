@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jZCHFBDlr64/Z34/9kbiQ0UqYzWS1hZiw9LSEpqGrcw=",
+  "Hash": "mIj8rGxorq0HRxBjjReTA/zLxochuM5MWnqyqZ7AlZE=",
   "Source": "aspnetcoreapp",
   "BasePath": "_content/aspnetcoreapp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/ynorman/dotnet-app/aspnetcoreapp/obj/Debug/net6.0/scopedcss/projectbundle/aspnetcoreapp.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/ynorman/dotnet-app/aspnetcoreapp/wwwroot/assets/logo-vmware-tanzu-square-Header.png",
+      "SourceId": "aspnetcoreapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ynorman/dotnet-app/aspnetcoreapp/wwwroot/",
+      "BasePath": "_content/aspnetcoreapp",
+      "RelativePath": "assets/logo-vmware-tanzu-square-Header.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/logo-vmware-tanzu-square-Header.png"
     },
     {
       "Identity": "/Users/ynorman/dotnet-app/aspnetcoreapp/wwwroot/css/site.css",

@@ -45,16 +45,16 @@ namespace aspnet
                   Console.WriteLine("Displaying page");
                   Console.WriteLine("New Line");
                     await context.Response.WriteAsync(
-@"<!DOCTYPE html>
-<html>
-  <head>
-    <title>Powered By Tanzu Buildpacks Yaniv</title>
-  </head>
-  <body>
-    Hi From Tanzu
-    <img style=""display: block; margin-left: auto; margin-right: auto; width: 50%;"" src=""/assets/logo-vmware-tanzu-square-Header.png""></img>
-  </body>
-</html>"
+                      @"<!DOCTYPE html>
+                      <html>
+                        <head>
+                          <title>Powered By Tanzu Buildpacks Yaniv</title>
+                        </head>
+                        <body>
+                          Hi From Tanzu
+                          <img style=""display: block; margin-left: auto; margin-right: auto; width: 50%;"" src=""/assets/logo-vmware-tanzu-square-Header.png""></img>
+                        </body>
+                      </html>"
                       );
                 });
             });
