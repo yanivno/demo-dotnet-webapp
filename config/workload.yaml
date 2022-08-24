@@ -3,8 +3,10 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: demo-dotnet-webapp
+  namespace: ynorman
   labels:
     apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/has-tests: "true"
     app.kubernetes.io/part-of: demo-dotnet-webapp
 spec:
   params:
