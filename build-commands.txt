@@ -1,0 +1,28 @@
+kp builder create dotnet-nodejs-builder \
+ --tag gcr.io/ynorman-project/tbs-images/dotnet-core-node-js-builder \
+ --buildpack tanzu-buildpacks/dotnet-core \
+ --buildpack tanzu-buildpacks/nodejs
+
+kp image create angular-dotnet-app \
+ --tag gcr.io/ynorman-project/tbs-images/net-angular-sample \
+ --env BPE_ASPNETCORE_ENVIRONMENT=Development \
+ --env NODE_ENV=development \
+ --wait \
+ --git https://github.com/yanivno/angular-dotnet-sample.git \
+  --sub-path angular-dotnet-sample \
+ --git-revision master
+
+ ---
+
+ kp image create demo-dotnet-app-manual \
+  --tag gcr.io/ynorman-project/tbs-images/net-webapp-sample \
+  --env BPE_ASPNETCORE_ENVIRONMENT=Development \
+  --wait \
+  --git https://github.com/yanivno/demo-dotnet-webapp.git \
+  --git-revision main
+  
+kubectl run my-app \
+--image=gcr.io/ynorman-project/tbs-images/net-webapp-sample:
+   
+kubectl expose po/my-app \
+ --name=my-app-lb --type=LoadBalancer --port=8080
