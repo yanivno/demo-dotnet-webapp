@@ -43,7 +43,7 @@ namespace aspnet
                 endpoints.MapGet("/", async context =>
                 {
                   Console.WriteLine("Displaying page");
-                  Console.WriteLine("New Line");
+                  Console.WriteLine("My Line");
                     await context.Response.WriteAsync(
                       @"<!DOCTYPE html>
                       <html>
@@ -51,7 +51,7 @@ namespace aspnet
                           <title>Powered By Tanzu Buildpacks Yaniv</title>
                         </head>
                         <body>
-                          Hi From Tanzu
+                          Hi From Tanzu Ribbon
                           <img style=""display: block; margin-left: auto; margin-right: auto; width: 50%;"" src=""/assets/logo-vmware-tanzu-square-Header.png""></img>
                         </body>
                       </html>"
