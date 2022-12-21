@@ -9,7 +9,19 @@ metadata:
     apps.tanzu.vmware.com/has-tests: "true"
     app.kubernetes.io/part-of: demo-dotnet-webapp
 spec:
+  env:
+  - name: RABBITMQ_URL
+    value: "my-rabbit:5672"
+#  - name: SECRET_VALUE_ENV
+#    valueFrom:
+#      secretKeyRef:
+#        name: schemapass
+#        key: password
   params:
+  - name: testing_pipeline_matching_labels
+    value:
+      apps.tanzu.vmware.com/pipeline: test
+      apps.tanzu.vmware.com/language: dotnet
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
